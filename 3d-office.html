@@ -3,7 +3,6 @@
 
 <head>
   <title>My first three.js app</title>
-  <script>console.clear();</script>
   <script src="https://unpkg.com/three@0.87.1/build/three.js"></script>
   <script src="https://unpkg.com/three@0.87.1/examples/js/controls/OrbitControls.js"></script>
   <script src="https://unpkg.com/three@0.87.1/examples/js/loaders/GLTFLoader.js"></script>
@@ -39,8 +38,8 @@
       renderer.setSize(window.innerWidth, window.innerHeight);
       document.body.appendChild(renderer.domElement);
 
-      hlight = new THREE.AmbientLight(0x404040, 100);
-      scene.add(hlight);
+      // hlight = new THREE.AmbientLight(0x404040, 100);
+      // scene.add(hlight);
 
       // directionalLight = new THREE.DirectionalLight("burlywood", 100);
       // directionalLight.position.set(0, 1, 0);
